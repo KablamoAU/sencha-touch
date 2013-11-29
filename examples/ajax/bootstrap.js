@@ -117,6 +117,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.chart.grid.VerticalGrid": [],
   "Ext.chart.interactions.Abstract": [],
   "Ext.chart.interactions.CrossZoom": [],
+  "Ext.chart.interactions.Crosshair": [],
   "Ext.chart.interactions.ItemHighlight": [],
   "Ext.chart.interactions.ItemInfo": [],
   "Ext.chart.interactions.PanZoom": [],
@@ -914,6 +915,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "Ext.chart.interactions.CrossZoom": [
     "interaction.crosszoom"
+  ],
+  "Ext.chart.interactions.Crosshair": [
+    "interaction.crosshair"
   ],
   "Ext.chart.interactions.ItemHighlight": [
     "interaction.itemhighlight"
