@@ -80,7 +80,7 @@ Ext.define('Ext.env.Feature', {
     isStyleSupportedWithoutPrefix: function(name, tag) {
         var elementStyle = this.getTestElement(tag).style;
 
-        if (typeof elementStyle[name] !== 'undefined') {
+        if (typeof elementStyle[name] !== 'undefined' && typeof Ext.browser.getStylePrefix(name) === 'undefined') {
             return true;
         }
 
